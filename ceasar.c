@@ -20,7 +20,7 @@ int main(int argc, string argv[])
     // Convert argument into an integer
     int k = atoi(argv[1]);
 
-    //get plaintext form the user
+    //get plaintext from the user
     string plaintext = get_string("Plaintext:  ");
 
     int length = strlen(plaintext);
